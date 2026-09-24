@@ -1,0 +1,82 @@
+{
+  "custody_is_not_authority": true,
+  "developer_configures_not_redesigns": true,
+  "economic_value_invented": false,
+  "evidence_does_not_establish_objective_truth": true,
+  "evidence_types": [
+    "DOCUMENT",
+    "REGISTRY_RECORD",
+    "OTHER"
+  ],
+  "fail_closed": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "license": "descriptor.license_expression",
+        "name": "descriptor.component_name",
+        "version": "descriptor.component_version"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "SPDX-3"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "bom-ref": "descriptor.bom_ref",
+        "name": "descriptor.component_name",
+        "version": "descriptor.component_version"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "CYCLONEDX"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "control": "descriptor.control_ref",
+        "risk_category": "descriptor.risk_category"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "NIST-AI-RMF"
+    }
+  ],
+  "name": "ai",
+  "object_types": {
+    "agent": "AI_AGENT",
+    "corpus": "DATASET",
+    "evaluation": "DOCUMENT",
+    "model": "MODEL",
+    "output": "DOCUMENT",
+    "training_dataset": "DATASET",
+    "weights": "MODEL"
+  },
+  "package_sha256": "4877cb5bc76ef0803eace931ca1a9cba516c01ba94a2e0b4bc71bcb5dc1b0440",
+  "privacy": {
+    "default": "SELECTIVE_DISCLOSURE",
+    "minimum_data": true,
+    "purpose_bound": true
+  },
+  "profile_is_not_regulatory_compliance": true,
+  "profile_refs": [
+    "entity-profile:global@1.0",
+    "entity-profile:ai@1.0"
+  ],
+  "required_config": [
+    "organization",
+    "jurisdiction",
+    "authority_source",
+    "model_governance_policy"
+  ],
+  "rights": [
+    "INSPECT",
+    "READ",
+    "DERIVE",
+    "TRAIN",
+    "INFER",
+    "EXECUTE"
+  ],
+  "version": "1.0"
+}

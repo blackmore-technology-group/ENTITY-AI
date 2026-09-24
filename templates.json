@@ -1,0 +1,222 @@
+{
+  "package": "ai",
+  "templates": {
+    "agent": {
+      "asset_kind": "agent",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "AI_AGENT",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "corpus": {
+      "asset_kind": "corpus",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DATASET",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "evaluation": {
+      "asset_kind": "evaluation",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "model": {
+      "asset_kind": "model",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "MODEL",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "output": {
+      "asset_kind": "output",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "training_dataset": {
+      "asset_kind": "training_dataset",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DATASET",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "weights": {
+      "asset_kind": "weights",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE",
+        "TRAIN",
+        "INFER",
+        "EXECUTE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "MODEL",
+      "package": "ai",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "SELECTIVE_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:ai@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD",
+        "OTHER"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    }
+  }
+}

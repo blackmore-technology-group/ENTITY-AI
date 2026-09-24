@@ -1,0 +1,38 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "license": "descriptor.license_expression",
+        "name": "descriptor.component_name",
+        "version": "descriptor.component_version"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "SPDX-3"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "bom-ref": "descriptor.bom_ref",
+        "name": "descriptor.component_name",
+        "version": "descriptor.component_version"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "CYCLONEDX"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "control": "descriptor.control_ref",
+        "risk_category": "descriptor.risk_category"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "NIST-AI-RMF"
+    }
+  ],
+  "package": "ai"
+}

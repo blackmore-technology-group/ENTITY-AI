@@ -1,0 +1,27 @@
+{
+  "core_semantics_changed": false,
+  "invalid": [
+    {
+      "asset_kind": "training_dataset",
+      "configuration": {},
+      "expected_valid": false
+    }
+  ],
+  "profile_stack": [
+    "entity-profile:global@1.0",
+    "entity-profile:ai@1.0"
+  ],
+  "schema": "entity-v3-industry-package-conformance-v1",
+  "valid": [
+    {
+      "asset_kind": "training_dataset",
+      "configuration": {
+        "authority_source": "CONFIGURE-ME",
+        "jurisdiction": "CONFIGURE-ME",
+        "model_governance_policy": "CONFIGURE-ME",
+        "organization": "Example Organization"
+      },
+      "expected_valid": true
+    }
+  ]
+}

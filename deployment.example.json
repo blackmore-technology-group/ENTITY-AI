@@ -1,0 +1,11 @@
+{
+  "asset_kind": "training_dataset",
+  "configuration": {
+    "authority_source": "CONFIGURE-ME",
+    "jurisdiction": "CONFIGURE-ME",
+    "model_governance_policy": "CONFIGURE-ME",
+    "organization": "Example Organization"
+  },
+  "note": "Replace CONFIGURE-ME values with organization-specific facts before deployment.",
+  "package": "ai"
+}
